@@ -8224,13 +8224,14 @@ body {
   position: relative;
   padding-top: 30px;
   text-align: left;
+  display: flex;
 }
 
 .box-button-slider-bottom .swiper-button-next-group-4 {
   top: auto;
   left: auto;
   right: auto;
-  display: inline-block;
+  display: flex;
   background-image: none;
   border: 1px solid #85BFE4;
   border-radius: 0;
@@ -8244,7 +8245,7 @@ body {
   top: auto;
   left: auto;
   right: auto;
-  display: inline-block;
+  display: flex;
   background-image: none;
   border: 1px solid #85BFE4;
   border-radius: 0;
@@ -8252,6 +8253,13 @@ body {
   width: 42px;
   position: relative;
   margin: 0px 7px;
+}
+
+.swiper-button-prev svg, .swiper-button-next svg {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+  transform-origin: center;
 }
 
 .subscribe-mail {
