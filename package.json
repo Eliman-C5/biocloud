@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass --watch public/assets/scss/style.scss:public/assets/css/style.css"
   },
   "dependencies": {
     "@types/node": "20.4.2",
@@ -16,7 +17,11 @@
     "eslint-config-next": "13.4.9",
     "next": "13.4.9",
     "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "sass": "^1.63.6",
+    "swiper": "^10.0.4",
+    "typescript": "5.1.6",
+    "wowjs": "^1.1.3"
   }
 }
