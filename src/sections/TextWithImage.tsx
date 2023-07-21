@@ -17,7 +17,7 @@ export const TextWithImage = () => {
                 </p>
             </div>
             <div className="row mt-50 mb-100 d-flex justify-content-center">
-                <div className="col-xl-7 col-lg-6">
+                <div className="col-xl-8 col-lg-7">
                     <Image className='info-image' src={imgLanding} width={932} height={440} alt='' />
                 </div>
             </div>  

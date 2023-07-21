@@ -67,13 +67,14 @@ export default function Home() {
         width={690}
         height={571}
       >
-        <h3 className="mt-15 biocloud-text-color">
+        <h3 className="biocloud-text-color">
           Digitalice los procesos de su empresa en RRHH sin importar el rubro y la calidad personal
         </h3>
         <p className="font-md" style={{color: '#3D565F'}}>
         <span style={{fontWeight: '700'}}>Biocloud</span> es el software web centralizado para la Gestión de <span style={{fontWeight: '700'}}>Tiempo & Asistencia y Cálculo de novedades de Pre- Nómina.</span>
         </p>
         <p className="font-md" style={{color: '#3D565F'}}>Además permite guardar documentación, generar reportes y exportar estadísticas de tus colaboradores, entre otras herramientas que transforman la experiencia laboral.</p>
+        <h4 style={{color: '#2C2A2E'}}>¿Quieres ver Biocloud en acción?</h4>
       </InfoBox>
       <TextWithImage />
       <CardsSection />
@@ -149,7 +150,7 @@ export default function Home() {
         height={472}
       >
         <h2 className='font-bold-800'>Tablet fichaje</h2>
-        <Image className='info-image d-block d-lg-none' alt='' width={686} height={472} src={tabletImg} />
+        <Image className='info-image d-block d-xl-none' alt='' width={686} height={472} src={tabletImg} />
         <CardRow wrap='flex-wrap'>
           {
             cardsInfo.map(item => <Card 

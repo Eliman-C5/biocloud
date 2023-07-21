@@ -9,6 +9,7 @@ import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import 'swiper/css';
+import Image from 'next/image';
 
 SwiperCore.use([Autoplay, Navigation]);
 const Offer = () => {
@@ -18,21 +19,29 @@ const Offer = () => {
             title: "Mobile APP",
             text: 'Colaboradores y administradores usan Biocloud APP cada día para registrar su jornada, pedir vacaciones o comunicarse con su empresa.',
             img: "Group1.png",
+            width: 134,
+            height: 177
         },
         {
             title: "Tablet fichaje",
             text: 'Una gran alternativa a los sistemas de marcación tradicionales, más económica y lista para utilizar en minutos.',
             img: "Group2.png",
+            width: 184,
+            height: 122
         },
         {
             title: "Terminales Multi Biométricas",
             text: 'Terminales con Bioseguridad sincroniza la información de extremo a extremo sin intervención de usuarios, evita la suplantación y la pérdida de datos, evitando el absentismo.',
             img: "Group3.png",
+            width: 131,
+            height: 177 
         },
         {
             title: "Portal Web",
             text: 'Registra las entradas y salidas, obtén informes en tiempo real, edita marcaciones y gestiona tus equipos. Todo a través de una plataforma cloud',
             img: "Group4.png",
+            width: 308,
+            height: 174
         },
     ];
 
@@ -72,7 +81,7 @@ const Offer = () => {
                         slidesPerView: 3,
                         spaceBetween: 30,
                     },
-                    1350: {
+                    1400: {
                         slidesPerView: 4,
                         spaceBetween: 30,
                     },
@@ -84,22 +93,22 @@ const Offer = () => {
                         <div className="card-offer-style-3">
                             <div className="card-head">
                                 <div className="card-image">
-                                  <img src={`media/${item.img}`} alt="iori" />
+                                  <Image src={`/media/${item.img}`} className='info-image' alt="iori" width={item.width} height={item.height} />
                                 </div>
                             </div>
-                            <div className="card-info">
+                              <div className="card-info d-flex flex-column justify-content-between">
                                 <div className="carrd-title">
                                     <h4 style={{color: '#122830'}}>{item.title}</h4>
                                 </div>
                                 <p className="font-sm color-grey-500 mb-15">
                                 {item.text}
                                 </p>
-                                <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 hover-up" style={{color: '#071920'}}>Learn More
+                                <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 hover-up" style={{color: '#071920', justifyContent: 'flex-start'}}>Learn More
                                     <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></a></div>
-                            </div>
-                        </div>
+                              </div>
+                          </div>
                     </SwiperSlide>
                 ))}
 

@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{background: '#fff'}}>{children}</body>
+      <body style={{background: '#fff', overflowX: 'hidden'}}>{children}</body>
     </html>
   )
 }
