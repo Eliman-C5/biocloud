@@ -21,7 +21,7 @@ export const InfoBox = ({
           <div className={containerStyle} >
               <div className={`box-cover-border ${customBoxStyle}`}>
                 <div className={`row align-items-center ${rowReverse}`}>
-                    <div className="col-lg-5 mt-auto">
+                    <div className="col-lg-5 mt-xxl-auto">
                       <Image className="info-image" style={imageStyle} src={image} width={width} height={height} alt="iori" />
                     </div>
                     <div className={`col-lg-7 d-flex`}>

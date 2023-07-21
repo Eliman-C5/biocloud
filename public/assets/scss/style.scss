@@ -97,6 +97,11 @@ body {
   }
 }
 
+.box-info-video {
+  width: 100%;
+  padding: 60px 60px 60px 30px;
+}
+
 @media (min-width: 1400px) {
   .box-info-video {
     padding: 0 80px 0 80px;
@@ -162,6 +167,10 @@ body {
     width: 42px;
     position: relative;
     margin: 0px 7px;
+}
+
+.btn-placeholder::placeholder {
+  color: #999999;
 }
 
 .swiper-button-prev svg, .swiper-button-next svg {

@@ -13,7 +13,7 @@ export const SubscribeComponent = ({customStyles}: any) => {
     <form onSubmit={onSubmit} className={`subscribe d-flex ${customStyles}`} style={{gap: '15px'}}>
       <input 
         type='text' 
-        className='subscribe-mail'
+        className='subscribe-mail btn-placeholder'
         placeholder='Correo eléctronico'
       />
       <button className='btn btn-brand-1 hover up'>

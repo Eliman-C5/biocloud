@@ -28,6 +28,7 @@ import { Subscriptions } from '@/layout/Subscriptions'
 import { FeatureSlider } from '@/layout/FeatureSlider'
 import { TerminalesSlider } from '@/layout/TerminalesSlider'
 import Image from 'next/image'
+import { CardProductSection } from '@/sections/CardProductSection'
 
 const cardsInfo = [
   {
@@ -178,6 +179,8 @@ export default function Home() {
       </InfoBox>
       
       <TerminalesSlider />
+      
+      <CardProductSection />
       
       <TestimonialSection />
       

@@ -38,10 +38,6 @@ export const TestimonialSection = () => {
                     <p className="font-lg mb-20" style={{color: '#2C2A2E'}}>¿Estás listo para llevar la gestión de tus recursos humanos al siguiente nivel?</p>
                     <p className="font-lg" style={{color: '#2C2A2E'}}>¡Únete a Biocloud y sé parte de la revolución del futuro del trabajo!</p>
                 </div>
-                <div className="col-lg-4 col-md-4 text-md-end text-start d-none d-lg-block"><a className="btn btn-default font-sm-bold pl-0">View All
-                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg></a></div>
             </div>
             <div className="mt-50">
                 <div className="box-swiper">
