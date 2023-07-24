@@ -10,29 +10,19 @@ export const Header = () => {
             <div className='banner-1'>
               <div className="">
                 <div className="row align-items-center biocloud-header">
-                    <div className="col-lg-6 d-none d-lg-block" style={{paddingLeft: '0'}}>
+                    <div className="col-lg-6" style={{padding: '0'}}>
                         <Image 
                           src={imgHeader} 
-                          className=''
+                          className='info-image'
                           alt='' 
                           width={1150}
                           height={600}
                         />
                     </div>
-                    <div className="col-lg-6 d-flex flex-column">
+                    <div className="col-lg-6 d-flex flex-column biocloud-header-col">
                         <p 
-                          style={{
-                            color: '#2C2A2E',
-                            //fontFamily: 'Poppins',
-                            fontSize: '18px',
-                            fontStyle: 'normal',
-                            fontWeight: '400',
-                            lineHeight: '52px',
-                            textTransform: 'uppercase',
-                            display: 'flex',
-                            gap: '12px',
-                            alignItems: 'center'
-                          }}>
+                          className='font-small-header'  
+                        >
                             <span style={{
                               width: '48px',
                               height: '1px',
@@ -42,7 +32,7 @@ export const Header = () => {
                             Bienvenidos a Biocloud
                           </p>
                         <h1 className="biocloud-text-color mb-20 text-header">Automatiza tu empresa</h1>
-                        <SubscribeComponent customStyles='w-75' />
+                        <SubscribeComponent customStyles='biocloud-header-subscribe' />
                     </div>
                 </div>
               </div>

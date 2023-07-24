@@ -36,5 +36,6 @@ export type infoBoxTypes = {
   childrenBoxStyle?: any,
   imageStyle?: null | any,
   containerStyle?: string,
-  rowReverse?: string
+  rowReverse?: string,
+  section?: string
 }

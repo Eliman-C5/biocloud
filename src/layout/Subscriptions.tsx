@@ -103,7 +103,7 @@ export const Subscriptions = () => {
   ]
 
   return (
-    <section className="section mt-100">
+    <section className="section mt-100 margin-mobile" id='planes'>
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-12 text-center">
@@ -116,7 +116,7 @@ export const Subscriptions = () => {
                     </ul>
                 </div>
             </div>
-            <div className="row mt-50">
+            <div className="row mt-50 mobile-pricing">
                 {
                   subscriptionInfo.map(subs => <SubscriptionCard 
                     key={subs.id}

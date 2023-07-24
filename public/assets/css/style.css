@@ -2963,10 +2963,10 @@ body {
   margin-right: 5px;
 }
 .header .main-menu li div.sub-menu .menu-inner li a:hover {
-  color: #071920;
+  color: #85BFE4;
 }
 .header .main-menu li div.sub-menu .menu-inner li a:hover * {
-  color: #071920;
+  color: #85BFE4;
 }
 .header .main-menu li ul {
   opacity: 0;
@@ -3234,6 +3234,7 @@ body {
   padding: 7px 22px 5px 22px;
   line-height: 14px;
   opacity: 1;
+  color: black;
 }
 .btn-close svg {
   height: 16px;
@@ -3393,15 +3394,12 @@ body {
   font-weight: 500;
   position: relative;
   display: inline-block;
-  color: #85BFE4;
+  color: #071920;
   transition-duration: 0.2s;
   text-decoration: none;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li a i {
   margin-right: 5px;
-}
-.mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li a:hover {
-  color: #06D6A0;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li ul {
   padding: 10px 0 0 10px;
@@ -3443,7 +3441,7 @@ body {
   margin: 5px 0;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li:hover > a {
-  color: #06D6A0;
+  color: #85BFE4;
   padding-left: 3px;
   transition-duration: 0.2s;
 }
@@ -7988,7 +7986,7 @@ footer a {
     width: 55px;
   }
   .box-newsletter {
-    padding: 20px;
+    padding: 60px 40px;
   }
   h5 {
     font-size: 18px;
@@ -8183,6 +8181,18 @@ body {
   width: 100%;
 }
 
+.font-small-header {
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #2C2A2E;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 650px) {
   .text-header {
     font-size: 46px;
@@ -8192,11 +8202,69 @@ body {
 .box-info-video {
   width: 100%;
   padding: 40px 30px 40px 30px;
+  align-items: center;
 }
 
+.card-small .card-image .box-image {
+  background-color: #E0F1F4;
+  border-radius: 6px;
+  padding: 8px 10px;
+  display: inline-block;
+  margin: 0 auto 10px auto;
+}
+
+.text-card-biocloud {
+  text-align: center;
+}
+
+.info-image-feature {
+  height: 80%;
+  width: auto;
+}
+
+.mobile-pricing {
+  gap: 30px;
+}
+
+.image-slider {
+  width: 300px;
+  height: 300px;
+}
+
+@media (min-width: 600px) {
+  .info-image-feature {
+    height: auto;
+  }
+  .mobile-pricing {
+    gap: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .font-small-header {
+    font-size: 18px;
+    line-height: 52px;
+    margin: 0;
+  }
+  .card-small .card-image .box-image {
+    margin: 0 0 10px 0;
+  }
+  .biocloud-header-col {
+    padding-left: 60px;
+  }
+  .box-info-video {
+    align-items: initial;
+  }
+  .image-slider {
+    height: auto;
+    width: auto;
+  }
+}
 @media (min-width: 1400px) {
   .box-info-video {
     padding: 0 80px 0 80px;
+  }
+  .biocloud-header-col {
+    padding-left: 0px;
   }
 }
 .tabs-plan li a {
@@ -8292,8 +8360,19 @@ body {
 }
 
 .biocloud-header {
-  padding: 100px 0;
+  padding: 50px 0px 50px 20px;
   margin: auto;
+  gap: 40px;
+}
+
+@media (min-width: 600px) {
+  .biocloud-header {
+    padding: 100px 40px;
+    margin: auto;
+  }
+}
+.biocloud-header-subscribe {
+  width: 85%;
 }
 
 .info-image {
@@ -8306,28 +8385,50 @@ body {
 }
 
 .terminales-text {
-  padding: 0 30px;
+  padding: 0 20px;
+}
+
+.mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li a:hover {
+  color: #85BFE4;
 }
 
 .terminales-section {
-  padding-bottom: 50px;
+  padding: 0 40px 50px 40px;
+}
+
+.start-btn-margin {
+  margin: auto;
+}
+
+.margin-mobile {
+  padding: 0 20px;
 }
 
 @media (min-width: 700px) {
   .terminales-section {
-    padding-bottom: 100px;
+    padding: 0 0 100px 0;
+  }
+  .margin-mobile {
+    padding: 0;
   }
 }
 @media (min-width: 1024px) {
   .biocloud-header {
     padding: 0;
+    gap: 0px;
     max-width: 1900px;
+  }
+  .text-card-biocloud {
+    text-align: left;
   }
   .info-box-style {
     padding: 200px 80px 200px 80px;
   }
   .banner-1 {
-    padding-bottom: 0;
+    padding: 150px 0 0px 0;
+  }
+  .start-btn-margin {
+    margin: 0 auto 0 0;
   }
 }
 @media (max-width: 1200px) {

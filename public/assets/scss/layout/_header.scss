@@ -166,9 +166,9 @@
                                 margin-right: 5px;
                             }
                             &:hover {
-                                color: $color-gray-900;
+                                color: $color-brand-1;
                                 * {
-                                    color: $color-gray-900;
+                                    color: $color-brand-1;
                                 }
                             }
                         }
@@ -457,6 +457,7 @@
     padding: 7px 22px 5px 22px;
     line-height: 14px;
     opacity: 1;
+    color:black;
     svg {
         height: 16px;
     }

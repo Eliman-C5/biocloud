@@ -26,25 +26,25 @@ const Sidebar = ({ openClass }: any) => {
                                         <div className="tab-pane">
                                             <nav className="mt-15">
                                                 <ul className="mobile-menu font-heading">
-                                                    <li >
-                                                        <Link className="active" href="/">Home</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="#">Company</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="#">Career</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/blog">Blog</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="#">Shop</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="#">Pages</Link>
-                                                    </li>
-                                                    <li><Link href="/contact">Contact</Link></li>
+                                                  <li className="">
+                                                    <Link href="#software">Sobre el software</Link>
+                                                  </li>
+                                                  <li className="">
+                                                    <Link href="#app">Mobile App</Link>
+                                                  </li>
+                                                  <li className="">
+                                                    <Link href="#tablet">Tablet</Link>
+                                                  </li>
+                                                  <li className="">
+                                                    <Link href="#biometricos">Biométricos</Link>
+                                                  </li>
+                                                  <li className="">
+                                                    <Link href="#planes">Planes</Link>
+                                                  </li>
+                                                  <li className="">
+                                                    <Link href="#testimonios">Testimonios</Link>
+                                                  </li>
+                                                  <li><Link href="#contacto">Contact</Link></li>
                                                 </ul>
                                             </nav>
                                         </div>

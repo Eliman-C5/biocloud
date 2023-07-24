@@ -7,14 +7,14 @@ export const FeaturesBox = ({children, image, width, height, imageStyle}: infoBo
     <section className="section mt-100 pt-50 pb-100" style={{background: '#fff'}}>
           <div className='container' >
               <div>
-                <div className="d-flex flex-column flex-column-reverse flex-xl-row row">
+                <div className="d-flex flex-column flex-column-reverse flex-lg-row row">
                     <div className={`col-lg-6 d-flex`}>
                         <div className="flex-column d-flex" style={{gap: '20px', margin: 'auto'}}>
                             {children}
                         </div>
                     </div>
                     <div className="col-lg-6">
-                      <Image className="d-none d-xl-block" style={imageStyle} src={image} width={width} height={height} alt="iori" />
+                      <Image className="d-none d-lg-block" style={imageStyle} src={image} width={width} height={height} alt="iori" />
                     </div>
                 </div>
             </div>

@@ -40,19 +40,19 @@ const Navbar = ({ handleOpen, handleRemove, openClass, addClass }: any) => {
                             <div className="d-flex">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
-                                        <li className=""><Link className="active" href="/">Sobre el software</Link>
+                                        <li className=""><Link href="#software">Sobre el software</Link>
                                         </li>
-                                        <li className=""><Link href="#">Mobile App</Link>
+                                        <li className=""><Link href="#app">Mobile App</Link>
                                         </li>
-                                        <li className=""><Link href="#">Tablet</Link>
+                                        <li className=""><Link href="#tablet">Tablet</Link>
                                         </li>
-                                        <li className=""><Link href="#">Biométricos</Link>
+                                        <li className=""><Link href="#biometricos">Biométricos</Link>
                                         </li>
-                                        <li className=""><Link href="#">Planes</Link>
+                                        <li className=""><Link href="#planes">Planes</Link>
                                         </li>
-                                        <li className=""><Link href="#">Testimonios</Link>
+                                        <li className=""><Link href="#testimonios">Testimonios</Link>
                                         </li>
-                                        <li><Link href="/contact">Contacto</Link></li>
+                                        <li><Link href="#contact">Contacto</Link></li>
                                     </ul>
                                 </nav>
                                 <div className={`burger-icon burger-icon-white ${openClass && "burger-close"}`}

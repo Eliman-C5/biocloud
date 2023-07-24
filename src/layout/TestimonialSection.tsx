@@ -30,7 +30,7 @@ const testimonialInfo = [
 
 export const TestimonialSection = () => {
   return (
-    <section className="section mt-50">
+    <section className="section mt-50 margin-mobile" id='testimonios'>
         <div className="container">
             <div className="row align-items-end">
                 <div className="col-lg-8 col-md-8">

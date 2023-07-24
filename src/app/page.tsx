@@ -66,15 +66,16 @@ export default function Home() {
         image={imgInfoBox1}
         width={690}
         height={571}
+        section='software'
       >
-        <h3 className="biocloud-text-color">
+        <h3 className="biocloud-text-color text-card-biocloud">
           Digitalice los procesos de su empresa en RRHH sin importar el rubro y la calidad personal
         </h3>
-        <p className="font-md" style={{color: '#3D565F'}}>
+        <p className="font-md text-card-biocloud" style={{color: '#3D565F'}}>
         <span style={{fontWeight: '700'}}>Biocloud</span> es el software web centralizado para la Gestión de <span style={{fontWeight: '700'}}>Tiempo & Asistencia y Cálculo de novedades de Pre- Nómina.</span>
         </p>
-        <p className="font-md" style={{color: '#3D565F'}}>Además permite guardar documentación, generar reportes y exportar estadísticas de tus colaboradores, entre otras herramientas que transforman la experiencia laboral.</p>
-        <h4 style={{color: '#2C2A2E'}}>¿Quieres ver Biocloud en acción?</h4>
+        <p className="font-md text-card-biocloud" style={{color: '#3D565F'}}>Además permite guardar documentación, generar reportes y exportar estadísticas de tus colaboradores, entre otras herramientas que transforman la experiencia laboral.</p>
+        <h4 style={{color: '#2C2A2E'}} className='text-card-biocloud'>¿Quieres ver Biocloud en acción?</h4>
       </InfoBox>
       <TextWithImage />
       <CardsSection />
@@ -85,7 +86,7 @@ export default function Home() {
         width={689}
         height={513}
       >
-        <h3 className="mt-15 biocloud-text-color">¿Necesitás ayuda para configurar Biocloud?</h3>
+        <h3 className="mt-15 biocloud-text-color text-card-biocloud">¿Necesitás ayuda para configurar Biocloud?</h3>
         <ul>
           <li className='font-md-bold'>Pedal de arranque</li>
           <li className='font-md-bold'>Capacitación</li>
@@ -113,8 +114,8 @@ export default function Home() {
         boxInfo='info-box-style'
         imageStyle={{objectFit: 'cover'}}
       >
-        <h3 className="mt-15 biocloud-text-color">Trabajo en la oficina, en casa o en movimiento...</h3>
-        <p className='font-lg color-gray-500'>Adapta tu empresa a los nuevos tiempos, Gestiona el teletrabajo junto a Biocloud</p>
+        <h3 className="mt-15 biocloud-text-color text-card-biocloud">Trabajo en la oficina, en casa o en movimiento...</h3>
+        <p className='font-lg color-gray-500 text-card-biocloud'>Adapta tu empresa a los nuevos tiempos, Gestiona el teletrabajo junto a Biocloud</p>
       </InfoBox>
       
       <FeatureSlider />
@@ -127,8 +128,8 @@ export default function Home() {
         subscribe={false}
         rowReverse='flex-row-reverse'
       >
-        <h3 className="mt-15 biocloud-text-color">Conoce el estado de tu equipo en cualquier momento y en el lugar que se encuentre</h3>
-        <p className='font-lg color-gray-500'>Biocloud APP, software adaptado al teletrabajo</p>
+        <h3 className="mt-15 biocloud-text-color text-card-biocloud">Conoce el estado de tu equipo en cualquier momento y en el lugar que se encuentre</h3>
+        <p className='font-lg color-gray-500 text-card-biocloud'>Biocloud APP, software adaptado al teletrabajo</p>
       </InfoBox>
       
       <InfoBox
@@ -138,10 +139,13 @@ export default function Home() {
         image={imgInfoFluid}
         width={945}
         height={738}
+        section='tablet'
       >
-        <h3 className="mt-15 biocloud-text-color">Tablet como reloj de personal</h3>
-        <p className='font-2xl-bold color-gray-500'>Adapta tu empresa a los nuevos tiempos</p>
-        <p className='font-xl-bold color-gray-500'>Gestiona el teletrabajo junto a Biocloud</p>
+        <h3 className="mt-15 biocloud-text-color text-card-biocloud text-card-biocloud">Tablet como reloj de personal</h3>
+        <p className='font-2xl-bold color-gray-500 text-card-biocloud d-none d-lg-block'>Adapta tu empresa a los nuevos tiempos</p>
+        <p className='font-xl-bold color-gray-500 text-card-biocloud d-none d-lg-block'>Gestiona el teletrabajo junto a Biocloud</p>
+        <p className='font-md color-gray-500 text-card-biocloud d-lg-none'>Adapta tu empresa a los nuevos tiempos</p>
+        <p className='font-md color-gray-500 text-card-biocloud d-lg-none'>Gestiona el teletrabajo junto a Biocloud</p>
       </InfoBox>
       
       <FeaturesBox
@@ -149,8 +153,8 @@ export default function Home() {
         width={686}
         height={472}
       >
-        <h2 className='font-bold-800'>Tablet fichaje</h2>
-        <Image className='info-image d-block d-xl-none' alt='' width={686} height={472} src={tabletImg} />
+        <h2 className='font-bold-800 text-card-biocloud'>Tablet fichaje</h2>
+        <Image className='info-image d-block d-lg-none' alt='' width={686} height={472} src={tabletImg} />
         <CardRow wrap='flex-wrap'>
           {
             cardsInfo.map(item => <Card 
@@ -158,12 +162,12 @@ export default function Home() {
               text={item.title} 
               paragraph={item.text} 
               img={item.img}  
-              cardStyle='col-sm-6 col-12'
+              cardStyle='col-sm-6 col-10'
             />)
           }
         </CardRow>
         <div className="">
-          <StartBtn customStyles='bg-brand-1' />
+          <StartBtn customStyles='bg-brand-1 start-btn-margin' />
         </div>
         
       </FeaturesBox>
@@ -175,8 +179,8 @@ export default function Home() {
         height={513}
         subscribe={false}
       >
-        <h3 className="mt-15 biocloud-text-color">Biocloud Tablet registra asistencia, código de trabajo, solicita licencias y envía notificaciones</h3>
-        <p className='font-md color-gray-500'>Con Biocloud tablet convierte cualquier tablet en un punto de marcación de asistencia</p>
+        <h3 className="mt-15 biocloud-text-color text-card-biocloud">Biocloud Tablet registra asistencia, código de trabajo, solicita licencias y envía notificaciones</h3>
+        <p className='font-md color-gray-500 text-card-biocloud'>Con Biocloud tablet convierte cualquier tablet en un punto de marcación de asistencia</p>
       </InfoBox>
       
       <TerminalesSlider />
