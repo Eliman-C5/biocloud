@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import "swiper/css";
 import "swiper/css/navigation";
 import '../../public/assets/css/style.css';
+import 'mapbox-gl/dist/mapbox-gl.css'
 // import "react-modal-video/css/modal-video.css"
 import { useEffect, useState } from "react";
 import Preloader from '@/components/Preloader'

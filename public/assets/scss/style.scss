@@ -329,6 +329,22 @@ body {
   padding: 0 20px;
 }
 
+.map-biocloud {
+  height: 350px;
+}
+
+.form-biocloud-style {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-row {
+  gap: 30px;
+}
+
 @media (min-width: 700px) {
   
   .terminales-section {
@@ -341,6 +357,18 @@ body {
 }
 
 @media (min-width: 1024px) {
+
+  .form-biocloud-style {
+    width: 75%;
+  }
+
+  .map-biocloud {
+    height: 100%;
+  }
+  
+  .contact-row {
+    gap: 0;
+  }
   
   .biocloud-header {
     padding: 0;
@@ -381,6 +409,7 @@ body {
 }
 
 @media (min-width: 1400px) {
+
   .header .main-menu li a {
     font-size: 16px;
   }

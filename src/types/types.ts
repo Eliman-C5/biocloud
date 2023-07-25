@@ -22,7 +22,8 @@ export type startBtn = {
 export type biocloudBannerType = {
   children: ReactNode,
   title: string,
-  col?: string
+  col?: string,
+  sectionStyle?: string
 }
 
 export type infoBoxTypes = {

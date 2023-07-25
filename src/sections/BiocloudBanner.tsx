@@ -1,9 +1,9 @@
 import { biocloudBannerType } from '@/types/types'
 import React from 'react'
 
-export const BiocloudBanner = ({title, children, col = 'col-lg-7'}: biocloudBannerType) => {
+export const BiocloudBanner = ({title, children, col = 'col-lg-7', sectionStyle = 'mt-50 mb-50'}: biocloudBannerType) => {
   return (
-    <section className="section mt-50 mb-50">
+    <section className={`section ${sectionStyle}`}>
         <div className="container-fluid position-relative" style={{background: '#E0F1F4', padding: '0', overflow: 'hidden'}}>
             <div className="box-newsletter d-flex flex-column m-auto" style={{maxWidth: '1450px'}}>
                 <div className="row align-items-center justify-content-center">

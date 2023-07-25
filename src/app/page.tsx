@@ -29,6 +29,8 @@ import { FeatureSlider } from '@/layout/FeatureSlider'
 import { TerminalesSlider } from '@/layout/TerminalesSlider'
 import Image from 'next/image'
 import { CardProductSection } from '@/sections/CardProductSection'
+import { MapBiocloud } from '@/layout/MapBiocloud'
+import { ContactSection } from '@/sections/ContactSection'
 
 const cardsInfo = [
   {
@@ -194,6 +196,7 @@ export default function Home() {
       <BiocloudBanner
         title='Elige el plan mejor que se adapte a tu empresa'
         col='col-lg-10'
+        sectionStyle='mt-50'
       >
         <h4 style={{textAlign: 'center', color: '#2C2A2E'}}>Desarrolla  la digitalización 100%, todo organizado, actualizado y  en un mismo lugar, accesible desde cualquier ubicación las 24 hs los 365 días del año.</h4>
         <div className='d-flex flex-column flex-sm-row align-items-center justify-content-center mt-20' style={{gap: '20px'}}>
@@ -201,6 +204,8 @@ export default function Home() {
           <a className='btn btn-brand-1' style={{background: '#E0F1F4'}}>Solicita una demo</a>
         </div>
       </BiocloudBanner>
+      
+      <ContactSection />
       
     </Layout>
   )
