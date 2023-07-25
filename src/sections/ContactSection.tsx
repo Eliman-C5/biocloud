@@ -2,6 +2,7 @@ import { Form } from '@/layout/Form'
 import { MapBiocloud } from '@/layout/MapBiocloud'
 import React from 'react'
 
+// Comentario
 export const ContactSection = () => {
   return (
     <section id='contact' className='section'>
