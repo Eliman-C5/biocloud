@@ -9,6 +9,9 @@
     "lint": "next lint",
     "sass": "sass --watch public/assets/scss/style.scss:public/assets/css/style.css"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@types/node": "20.4.2",
     "@types/react": "18.2.14",
