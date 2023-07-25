@@ -57,11 +57,11 @@ export const FeatureSlider = () => {
               <Swiper
                   slidesPerView={1}
                   spaceBetween={30}
-                  //loop={true}
-                  // autoplay={{
-                  //   delay: 2500,
-                  //     disableOnInteraction: false
-                  // }}
+                  loop={true}
+                  autoplay={{
+                    delay: 2500,
+                      disableOnInteraction: false
+                  }}
                   navigation={{
                       prevEl: ".swiper-button-prev-style-3",
                       nextEl: ".swiper-button-next-style-3",

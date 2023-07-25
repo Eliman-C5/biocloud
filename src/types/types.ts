@@ -38,5 +38,6 @@ export type infoBoxTypes = {
   imageStyle?: null | any,
   containerStyle?: string,
   rowReverse?: string,
+  columnReverse?: string,
   section?: string
 }

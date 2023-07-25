@@ -8,7 +8,7 @@ type cardType = {
   cardStyle?: string
 }
 
-export const Card = ({text, img, paragraph = false, cardStyle = "col-lg-3 col-md-4 col-sm-6 col-10"}: cardType) => {
+export const Card = ({text, img, paragraph = false, cardStyle = "col-lg-3 col-md-4 col-sm-6 col-11"}: cardType) => {
   return (
     <div className={cardStyle}>
         <div className="card-small">

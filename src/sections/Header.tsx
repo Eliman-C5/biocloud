@@ -2,6 +2,7 @@ import { SubscribeComponent } from '@/components/SubscribeComponent'
 import Image from 'next/image'
 import React from 'react'
 import imgHeader from '../../public/media/img-header.png'
+import imgHeaderMobile from '../../public/media/img-header-mobile.png'
 
 export const Header = () => {
   return (
@@ -13,10 +14,17 @@ export const Header = () => {
                     <div className="col-lg-6" style={{padding: '0'}}>
                         <Image 
                           src={imgHeader} 
-                          className='info-image'
+                          className='info-image d-none d-sm-block'
                           alt='' 
                           width={1150}
                           height={600}
+                        />
+                        <Image 
+                          src={imgHeaderMobile} 
+                          className='info-image d-sm-none'
+                          alt='' 
+                          width={347}
+                          height={341}
                         />
                     </div>
                     <div className="col-lg-6 d-flex flex-column biocloud-header-col">

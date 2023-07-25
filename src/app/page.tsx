@@ -66,18 +66,18 @@ export default function Home() {
       <Header />
       <InfoBox 
         image={imgInfoBox1}
-        width={690}
-        height={571}
+        width={660}
+        height={490}
         section='software'
       >
-        <h3 className="biocloud-text-color text-card-biocloud">
+        <h3 className="biocloud-text-color">
           Digitalice los procesos de su empresa en RRHH sin importar el rubro y la calidad personal
         </h3>
-        <p className="font-md text-card-biocloud" style={{color: '#3D565F'}}>
+        <p className="font-md" style={{color: '#3D565F'}}>
         <span style={{fontWeight: '700'}}>Biocloud</span> es el software web centralizado para la Gestión de <span style={{fontWeight: '700'}}>Tiempo & Asistencia y Cálculo de novedades de Pre- Nómina.</span>
         </p>
-        <p className="font-md text-card-biocloud" style={{color: '#3D565F'}}>Además permite guardar documentación, generar reportes y exportar estadísticas de tus colaboradores, entre otras herramientas que transforman la experiencia laboral.</p>
-        <h4 style={{color: '#2C2A2E'}} className='text-card-biocloud'>¿Quieres ver Biocloud en acción?</h4>
+        <p className="font-md" style={{color: '#3D565F'}}>Además permite guardar documentación, generar reportes y exportar estadísticas de tus colaboradores, entre otras herramientas que transforman la experiencia laboral.</p>
+        <h4 style={{color: '#2C2A2E'}} className=''>¿Quieres ver Biocloud en acción?</h4>
       </InfoBox>
       <TextWithImage />
       <CardsSection />
@@ -89,14 +89,14 @@ export default function Home() {
         height={513}
       >
         <h3 className="mt-15 biocloud-text-color text-card-biocloud">¿Necesitás ayuda para configurar Biocloud?</h3>
-        <ul>
+        <ul className='list-info-box'>
           <li className='font-md-bold'>Pedal de arranque</li>
           <li className='font-md-bold'>Capacitación</li>
           <li className='font-md-bold'>Soporte</li>
           <li className='font-md-bold'>Mantenimiento</li>
         </ul>
         <div className="">
-          <StartBtn />
+          <StartBtn customStyles='list-info-box' />
         </div> 
       </InfoBox>
       <MultipleRowsSection />
@@ -115,6 +115,7 @@ export default function Home() {
         width={689}
         boxInfo='info-box-style'
         imageStyle={{objectFit: 'cover'}}
+        columnReverse='flex-column-reverse'
       >
         <h3 className="mt-15 biocloud-text-color text-card-biocloud">Trabajo en la oficina, en casa o en movimiento...</h3>
         <p className='font-lg color-gray-500 text-card-biocloud'>Adapta tu empresa a los nuevos tiempos, Gestiona el teletrabajo junto a Biocloud</p>
@@ -125,8 +126,8 @@ export default function Home() {
       <InfoBox
         customBoxStyle='bg-blue-light'
         image={imgInfoBox4}
-        width={700}
-        height={537}
+        width={620}
+        height={470}
         subscribe={false}
         rowReverse='flex-row-reverse'
       >
@@ -164,7 +165,7 @@ export default function Home() {
               text={item.title} 
               paragraph={item.text} 
               img={item.img}  
-              cardStyle='col-sm-6 col-10'
+              cardStyle='col-sm-6 col-11'
             />)
           }
         </CardRow>

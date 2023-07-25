@@ -107,7 +107,7 @@ export const Subscriptions = () => {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-12 text-center">
-                    <h2 className="color-brand-3 mb-20">Planes de suscripción</h2>
+                    <h2 className="mb-20" style={{color: '#071920'}}>Planes de suscripción</h2>
                     <p className="font-lg color-gray-500">Biocloud te ofrece el plan que mejor se adapta a las necesidades de tu empresa.<br /> 
 ¡La experiencia, la confiabilidad, la seguridad y el rendimiento de nuestro software son inigualables!</p>
                     <ul className="tabs-plan change-price-plan" role="tablist">

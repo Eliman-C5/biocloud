@@ -15,6 +15,7 @@ export const InfoBox = ({
   boxInfo = '',
   containerStyle = 'container',
   rowReverse = '',
+  columnReverse = '',
   section=''
   }: infoBoxTypes) => {
   return (
@@ -37,9 +38,9 @@ export const InfoBox = ({
                 </div>
             </div>
         </div>
-        <div className='container d-lg-none' style={{maxWidth: '540px'}}>
+        <div className='container d-lg-none section-container-styles' style={{maxWidth: '540px'}}>
               <div className={`box-cover-border ${customBoxStyle}`}>
-                <div className={`row align-items-center ${rowReverse}`}>
+                <div className={`row align-items-center ${columnReverse}`}>
                     <div className="col-lg-6 col-xxl-5 mt-xxl-auto">
                       <Image className="d-block d-lg-none info-image" style={imageStyle} src={image} width={width} height={height} alt="iori" />
                       <Image className="d-none d-lg-block" style={imageStyle} src={image} width={width} height={height} alt="iori" />

@@ -82,7 +82,7 @@ export const MultipleRowsSection = () => {
   return (
     <section className='section mt-50 mb-100'>
       <div className="container">
-        <h2 style={{color: '#024430', textAlign: 'center'}} className='mb-50'>¿Por qué elegirnos?</h2>
+        <h2 style={{color: '#071920', textAlign: 'center'}} className='mb-50'>¿Por qué elegirnos?</h2>
         <p style={{color: '#3D565F', maxWidth: '942px', margin: 'auto', textAlign: 'center'}} className='font-xl'>
         Biocloud dispone de funciones y herramientas avanzadas de Tiempo Asistencia y Acceso para todo tipo empresa, con la finalidad de aumentar la eficiencia, mejorar el absentismo y el rendimiento de los colaboradores.
         </p>
