@@ -74,6 +74,14 @@ TABLE CONTENT
     }
 }
 
+html, body {
+  scroll-behavior: smooth !important;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #E0F1F4;
 }

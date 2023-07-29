@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { StartBtn } from './StartBtn';
+import { StartBtn } from './Buttons/StartBtn';
 
 type navbarType = {
  handleOpen: any,

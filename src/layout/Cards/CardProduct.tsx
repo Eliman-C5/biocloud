@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
-import { CardProductBtn } from './Buttons/CardProductBtn'
+import { CardProductBtn } from '../Buttons/CardProductBtn'
 
 type cardProduct = {
   cardProductImg: StaticImageData,

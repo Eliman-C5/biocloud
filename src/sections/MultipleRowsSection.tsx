@@ -1,4 +1,4 @@
-import { CardRow } from '@/layout/CardRow'
+import { CardRow } from '@/layout/Container/CardRow'
 import React from 'react'
 import icon5 from '../../public/media/icon-5.svg'
 import icon6 from '../../public/media/icon-6.svg'
@@ -12,7 +12,7 @@ import icon13 from '../../public/media/icon-13.svg'
 import icon14 from '../../public/media/icon-14.svg'
 import icon15 from '../../public/media/icon-15.svg'
 import icon16 from '../../public/media/icon-16.svg'
-import { Card } from '@/layout/Card'
+import { Card } from '@/layout/Cards/Card'
 
 const cardsInfo = [
   {

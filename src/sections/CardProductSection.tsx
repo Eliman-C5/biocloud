@@ -1,4 +1,4 @@
-import { CardProduct } from '@/layout/CardProduct'
+import { CardProduct } from '@/layout/Cards/CardProduct'
 import React from 'react'
 import cardProduct1 from '../../public/media/cardProduct1.png'
 import cardProduct2 from '../../public/media/cardProduct2.png'

@@ -8165,6 +8165,14 @@ footer a {
   margin-bottom: 15px;
 }
 
+html, body {
+  scroll-behavior: smooth !important;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #E0F1F4;
 }

@@ -1,6 +1,6 @@
 'use client'
 
-import { StartBtn } from '@/layout/StartBtn';
+import { StartBtn } from '@/layout/Buttons/StartBtn';
 import React from 'react'
 
 export const SubscribeComponent = ({customStyles}: any) => {

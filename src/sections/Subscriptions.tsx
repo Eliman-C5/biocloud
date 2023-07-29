@@ -2,7 +2,7 @@
 
 import React, { useState }  from 'react'
 import Link from 'next/link';
-import { SubscriptionCard } from './SubscriptionCard';
+import { SubscriptionCard } from '../layout/Cards/SubscriptionCard';
 
 export const Subscriptions = () => {
 

@@ -5,7 +5,7 @@ import React from 'react'
 // Comentario
 export const ContactSection = () => {
   return (
-    <section id='contact' className='section'>
+    <section id='contact' className='section margin-mobile'>
       <div className="container">
         <div className="row contact-row">
           <div className="col-lg-6">

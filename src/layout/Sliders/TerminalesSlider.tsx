@@ -4,12 +4,12 @@ import React from 'react';
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import SwiperCore from "swiper"
 import { Swiper, SwiperSlide } from "swiper/react";
-import { TerminalesSliderCard } from './TerminalesSliderCard';
+import { TerminalesSliderCard } from '../Cards/TerminalesSliderCard';
 import Image from 'next/image';
-import terminales1 from '../../public/media/terminales1.png'
-import terminales2 from '../../public/media/terminales2.png'
-import terminales3 from '../../public/media/terminales3.png'
-import terminales4 from '../../public/media/terminales4.png'
+import terminales1 from '../../../public/media/terminales1.png'
+import terminales2 from '../../../public/media/terminales2.png'
+import terminales3 from '../../../public/media/terminales3.png'
+import terminales4 from '../../../public/media/terminales4.png'
 
 SwiperCore.use([Autoplay, Navigation]);
 export const TerminalesSlider = () => {

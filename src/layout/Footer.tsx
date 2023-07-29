@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '../../public/media/logo.png'
-import { StartBtn } from './StartBtn'
+import { StartBtn } from './Buttons/StartBtn'
 
 export const Footer = () => {
   return (

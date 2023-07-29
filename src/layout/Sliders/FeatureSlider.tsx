@@ -5,10 +5,10 @@ import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
 import SwiperCore from "swiper"
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from 'next/image'
-import { FeatureSliderCard } from './FeatureSliderCard';
-import mobile1 from '../../public/media/mobileApp1.png'
-import mobile2 from '../../public/media/mobileApp2.png'
-import mobile3 from '../../public/media/mobileApp3.png'
+import { FeatureSliderCard } from '../Cards/FeatureSliderCard';
+import mobile1 from '../../../public/media/mobileApp1.png'
+import mobile2 from '../../../public/media/mobileApp2.png'
+import mobile3 from '../../../public/media/mobileApp3.png'
 
 const items = [
   {

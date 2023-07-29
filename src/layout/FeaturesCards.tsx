@@ -1,7 +1,7 @@
 'use client'
 
-import Offer from '@/layout/Offer'
 import React from 'react'
+import Offer from './Sliders/Offer'
 
 export const FeaturesCards = () => {
   return (
